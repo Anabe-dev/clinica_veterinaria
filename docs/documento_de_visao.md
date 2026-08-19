@@ -1,8 +1,8 @@
 # Documento de Visão — [Nome do Projeto]
 
-**Equipe:** Ana Baldivia (RA 2423002) — Alexandre (RA 242) — Julia Roberta (RA 2423020) — Lidia Rocha (RA 2423022)
-**Trilha:** B
-**Origem do problema:** banco de temas nº 03
+**Equipe:** Ana Baldivia (RA 2423002) — Alexandre (RA 242) — Julia Roberta (RA 2423020) — Lidia Rocha (RA 2423022) <br />
+**Trilha:** B <br />
+**Origem do problema:** Banco de temas nº 03 <br />
 **Data:** 21/08/2026
 
 ## 1. Problema
