@@ -44,4 +44,6 @@ que clientes possam esquecer ou atrasar a vacinação dos animais.
 ## 7. Riscos identificados
 | Risco | Impacto | Mitigação |
 |---|---|---|
-| | | |
+| Estruturação incorreta do banco de dados | Gera perda de dados, armazenamento incorreto e dificuldade do acesso às informações | Realizar o planejamento do modelo ER antes da programação |
+| Conflito nas datas dos agendamentos | Agendamentos duplicados, fora do horário e sem agenda disponível | Implementar regras para verificar as agendas e impedir o agendamento em caso de conflito |
+| Dificuldade de integração entre as funcionalidades | Sistema sem comunicação e não funcional  | Pesquisar previamente a integração entre os módulos e realizar testes durante o desenvolvimento |
