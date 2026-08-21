@@ -19,13 +19,12 @@ que clientes possam esquecer ou atrasar a vacinação dos animais.
 | **Recepcionista** | Responsável pelo atendimento e organização da clínica | Cadastra clientes e animais, agenda consultas e gerencia horários |
 
 ## 3. Visão da solução
-[3-5 frases descrevendo o sistema em alto nível. Não é lista de telas —
-é a ideia central de como o software resolve o problema da seção 1.]
+O software será desenvolvido com o objetivo de centralizar os prontuários, controlar os agendamentos de vacinação e automatizar os lembretes de vacinas, substituindo as anotações manuais e planilhas utilizadas atualmente pela clínica.
 
-## 4. Objetivos do MVP (o que o semestre entrega)
-- [Objetivo 1 — mensurável, ex.: "reduzir de X para Y o tempo de..."]
-- [Objetivo 2]
-- [Objetivo 3]
+## 4. Objetivos do MVP 
+- Automatização das tarefas da clinica.
+- Resolução de conflitos de horário entre os agendamentos.
+- Armazenamentos dos prontuários dos pacientes.
 
 ## 5. Fora de escopo (explicitamente)
 - [O que vocês decidiram NÃO fazer neste semestre, e por quê]
