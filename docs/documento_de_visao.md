@@ -35,11 +35,11 @@ O software será desenvolvido com o objetivo de centralizar os prontuários, con
 ## 6. Requisitos mínimos do §3 do Manual — como este projeto cobre cada um
 | Requisito mínimo | Como este projeto cobre |
 |---|---|
-| Autenticação com 2+ perfis | |
+| Autenticação com 2+ perfis | | Perfis dos usuários recepcionista e veterinario
 | 6+ entidades com relacionamento N:N | |
 | Regra de negócio não trivial | |
 | Consulta agregada (relatório/dashboard) | |
-| Validações em interface e banco | |
+| Validações em interface e banco | | 
 | Deploy público por URL | |
 | Repositório Git com README | |
 
