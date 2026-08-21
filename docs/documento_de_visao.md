@@ -1,6 +1,6 @@
 # Documento de Visão — Pet & Gatô
 
-**Equipe:** Ana Baldivia (RA 2423002) — Alexandre (RA 242) — Julia Roberta (RA 2423020) — Lidia Rocha (RA 2423022) <br />
+**Equipe:** Ana Baldivia (RA 2423002) — Alexandre (RA 2423027) — Julia Roberta (RA 2423020) — Lidia Rocha (RA 2423022) <br />
 **Trilha:** B <br />
 **Origem do problema:** Banco de temas nº 03 <br />
 **Data:** 21/08/2026
@@ -27,7 +27,10 @@ O software será desenvolvido com o objetivo de centralizar os prontuários, con
 - Armazenamentos dos prontuários dos pacientes.
 
 ## 5. Fora de escopo (explicitamente)
-- [O que vocês decidiram NÃO fazer neste semestre, e por quê]
+- Módulo financeiro e emissão de notas: Não haverá controle de fluxo de caixa ou cobrança online, porque adicionaria complexidade regulatória/bancária e desviaria o foco do atendimento clínico.
+- Controle avançado de estoque físico: Não será feita a gestão de compras, almoxarifado ou ponto de pedido, porque o foco da entrega é apenas o registro da aplicação da vacina no prontuário do animal.
+- Upload e armazenamento de arquivos de exames (PDF, Raio-X, Ultrassom): O sistema não aceitará upload de anexos pesados de exames, porque exigiria infraestrutura de armazenamento em nuvem paga (como S3) e geraria custos desnecessários para o MVP.
+- Atendimento móvel / atendimento em domicílio: Não haverá suporte para rotas geolocalizadas ou gestão de deslocamento da equipe, porque a dinâmica de atendimento em trânsito adicionaria regras de logística fora do objetivo de organização interna da clínica.
 
 ## 6. Requisitos mínimos do §3 do Manual — como este projeto cobre cada um
 | Requisito mínimo | Como este projeto cobre |
