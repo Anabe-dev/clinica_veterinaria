@@ -13,9 +13,8 @@ ser agendado pra mesma vacina duas vezes; (c) ausência de lembretes automático
 que clientes possam esquecer ou atrasar a vacinação dos animais.
 
 ## 2. Público-alvo e perfis de usuário
-| Perfil | Quem é | O que faz no sistema |
-| **Veterinário** | Profissional responsável pelo atendimento dos animais | Consulta e atualiza prontuários, registra vacinas e acompanha a agenda |
-| **Recepcionista** | Responsável pelo atendimento e organização da clínica | Cadastra clientes e animais, agenda consultas e gerencia horários |
+| **Veterinário** | Profissional responsável pelo atendimento dos animais | Consulta e atualiza prontuários, registra vacinas e acompanha a agenda |<br />
+| **Recepcionista** | Responsável pelo atendimento e organização da clínica | Cadastra clientes e animais, agenda consultas e gerencia horários |<br />
 
 ## 3. Visão da solução
 [3-5 frases descrevendo o sistema em alto nível. Não é lista de telas —
