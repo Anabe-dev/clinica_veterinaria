@@ -1,4 +1,4 @@
-# Documento de Visão — [Nome do Projeto]
+# Documento de Visão — Pet & Gatô
 
 **Equipe:** Ana Baldivia (RA 2423002) — Alexandre (RA 242) — Julia Roberta (RA 2423020) — Lidia Rocha (RA 2423022) <br />
 **Trilha:** B <br />
@@ -6,15 +6,16 @@
 **Data:** 21/08/2026
 
 ## 1. Problema
-[Quem sofre com o quê, hoje, e como resolve isso na ausência do sistema —
-processo manual, planilha, papel, ligação telefônica etc. Cite números
-sempre que possível: quantas pessoas, quantas vezes por semana, quanto tempo.]
+A clínica veterinária Pet & Gatô controla prontuários, agenda e vacinas dos animais manualmente,
+utilizando anotações e planilhas, o que culmina em três dificuldades: (a) localização e atualização de 
+prontuários em tempo real; (b) conflitos ou perda de informações na organização da agenda - o mesmo animal
+ser agendado pra mesma vacina duas vezes; (c) ausência de lembretes automáticos para vacinas, fazendo com 
+que clientes possam esquecer ou atrasar a vacinação dos animais.
 
 ## 2. Público-alvo e perfis de usuário
 | Perfil | Quem é | O que faz no sistema |
-|---|---|---|
-| [Perfil 1] | | |
-| [Perfil 2] | | |
+| **Veterinário** | Profissional responsável pelo atendimento dos animais | Consulta e atualiza prontuários, registra vacinas e acompanha a agenda |
+| **Recepcionista** | Responsável pelo atendimento e organização da clínica | Cadastra clientes e animais, agenda consultas e gerencia horários |
 
 ## 3. Visão da solução
 [3-5 frases descrevendo o sistema em alto nível. Não é lista de telas —
