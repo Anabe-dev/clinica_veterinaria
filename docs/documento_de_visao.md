@@ -36,12 +36,12 @@ O software será desenvolvido com o objetivo de centralizar os prontuários, con
 | Requisito mínimo | Como este projeto cobre |
 |---|---|
 | Autenticação com 2+ perfis | | Perfis dos usuários recepcionista e veterinario
-| 6+ entidades com relacionamento N:N | |
-| Regra de negócio não trivial | |
-| Consulta agregada (relatório/dashboard) | |
-| Validações em interface e banco | | 
-| Deploy público por URL | |
-| Repositório Git com README | |
+| 6+ entidades com relacionamento N:N |Entidades: Usuario, Tutor, Animal, Consulta/Agendamento, Vacina e Prontuario. Relação N:N entre Animal e Vacina por meio da tabela associativa AplicacaoVacina (histórico de doses).|
+| Regra de negócio não trivial | Bloqueio de conflito de agenda e cálculo de intervalo vacinal: validação que impede agendamentos simultâneos no mesmo horário/veterinário e bloqueia agendamento de doses repetidas de vacinas antes do intervalo clínico mínimo necessário.|
+| Consulta agregada (relatório/dashboard) |Dashboard gerencial com GROUP BY e JOIN em 3+ tabelas (Animal, AplicacaoVacina, Vacina, Tutor) listando total de vacinas aplicadas por período, tipo de vacina e animais com doses em atraso.|
+| Validações em interface e banco |Validação no front (campos obrigatórios, máscaras de CPF/telefone/data) e constraints no banco (NOT NULL, UNIQUE para CPF e e-mail, FK com integridade referencial e CHECK para datas válidas). | 
+| Deploy público por URL |Deploy da aplicação web em nuvem (Vercel/Render/Railway) acessível via link público HTTPS. |
+| Repositório Git com README |Repositório público no GitHub com documentação no README.md contendo guia passo a passo para instalação das dependências, configuração do banco de dados e execução local do projeto.|
 
 ## 7. Riscos identificados
 | Risco | Impacto | Mitigação |
