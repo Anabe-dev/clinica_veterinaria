@@ -22,7 +22,7 @@ que clientes possam esquecer ou atrasar a vacinação dos animais.
 O software será desenvolvido com o objetivo de centralizar os prontuários, controlar os agendamentos de vacinação e automatizar os lembretes de vacinas, substituindo as anotações manuais e planilhas utilizadas atualmente pela clínica.
 
 ## 4. Objetivos do MVP 
-- Automatização das tarefas da clinica.
+- Controle por meio de cadastros diferentes (ex: Veterinário e recepcionista).
 - Resolução de conflitos de horário entre os agendamentos.
 - Armazenamentos dos prontuários dos pacientes.
 
