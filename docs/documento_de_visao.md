@@ -35,7 +35,7 @@ O software será desenvolvido com o objetivo de centralizar os prontuários, con
 ## 6. Requisitos mínimos do §3 do Manual — como este projeto cobre cada um
 | Requisito mínimo | Como este projeto cobre |
 |---|---|
-| Autenticação com 2+ perfis | | Perfis de Veterinario (acesso e edição de prontuários, prescrições e histórico clínico) e Recepcionista (Cadastro de tutores e animais e controle de agenda).|
+| Autenticação com 2+ perfis | Perfis de Veterinario (acesso e edição de prontuários, prescrições e histórico clínico) e Recepcionista (Cadastro de tutores e animais e controle de agenda).|
 | 6+ entidades com relacionamento N:N |Entidades: Usuario, Tutor, Animal, Consulta/Agendamento, Vacina e Prontuario. Relação N:N entre Animal e Vacina por meio da tabela associativa AplicacaoVacina (histórico de doses).|
 | Regra de negócio não trivial | Bloqueio de conflito de agenda e cálculo de intervalo vacinal: validação que impede agendamentos simultâneos no mesmo horário/veterinário e bloqueia agendamento de doses repetidas de vacinas antes do intervalo clínico mínimo necessário.|
 | Consulta agregada (relatório/dashboard) |Dashboard gerencial com GROUP BY e JOIN em 3+ tabelas (Animal, AplicacaoVacina, Vacina, Tutor) listando total de vacinas aplicadas por período, tipo de vacina e animais com doses em atraso.|
