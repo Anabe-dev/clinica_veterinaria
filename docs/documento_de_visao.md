@@ -7,7 +7,7 @@
 
 ## 1. Problema
 A clínica veterinária Pet & Gatô controla prontuários, agenda e vacinas dos animais manualmente,
-utilizando anotações e planilhas, o que culmina em três dificuldades: (a) localização e atualização de 
+utilizando anotações e planilhas, o que culmina em três dificuldades de 1 em cada 3 atendimentos semanalmente: (a) localização e atualização de 
 prontuários em tempo real; (b) conflitos ou perda de informações na organização da agenda - o mesmo animal
 ser agendado pra mesma vacina duas vezes; (c) ausência de lembretes automáticos para vacinas, fazendo com 
 que clientes possam esquecer ou atrasar a vacinação dos animais.
