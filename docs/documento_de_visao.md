@@ -7,15 +7,12 @@
 
 ## 1. Problema
 A clínica veterinária Pet & Gatô controla prontuários, agenda e vacinas dos animais manualmente,
-utilizando anotações e planilhas, o que culmina em três dificuldades de 1 em cada 3 atendimentos semanalmente: (a) localização e atualização de 
-prontuários em tempo real; (b) conflitos ou perda de informações na organização da agenda - o mesmo animal
-ser agendado pra mesma vacina duas vezes; (c) ausência de lembretes automáticos para vacinas, fazendo com 
-que clientes possam esquecer ou atrasar a vacinação dos animais.
+utilizando anotações e planilhas, o que culmina em três dificuldades: (a) dificuldade para localização e atualização de cerca de 5 prontuários por semana; (b) conflitos ou perda de informações na organização da agenda - aproximadamente 3 casos por semana do mesmo animal ser agendado pra mesma vacina duas vezes; (c) esquecimento ou atraso na vacinação de cerca de 4 animais por semana, devido à ausência de lembretes automáticos para vacinas.
 
 ## 2. Público-alvo e perfis de usuário
 | Perfil | Quem é | O que faz no sistema |
 |---|---|---|
-| **Veterinário** | Profissional responsável pelo atendimento dos animais | Consulta e atualiza prontuários, registra vacinas e acompanha a agenda |
+| **Veterinário** | Profissional responsável pelo atendimento dos animais | Consulta e atualiza prontuários, registra vacinas e acompanha a agenda |<br />
 | **Recepcionista** | Responsável pelo atendimento e organização da clínica | Cadastra clientes e animais, agenda consultas e gerencia horários |
 
 ## 3. Visão da solução
@@ -35,8 +32,8 @@ O software será desenvolvido com o objetivo de centralizar os prontuários, con
 ## 6. Requisitos mínimos do §3 do Manual — como este projeto cobre cada um
 | Requisito mínimo | Como este projeto cobre |
 |---|---|
-| Autenticação com 2+ perfis | Perfis de Veterinario (acesso e edição de prontuários, prescrições e histórico clínico) e Recepcionista (Cadastro de tutores e animais e controle de agenda).|
-| 6+ entidades com relacionamento N:N |Entidades: Usuario, Tutor, Animal, Consulta/Agendamento, Vacina e Prontuario. Relação N:N entre Animal e Vacina por meio da tabela associativa AplicacaoVacina (histórico de doses).|
+| Autenticação com 2+ perfis | Perfis de Veterinário (acesso e edição de prontuários, prescrições e histórico clínico) e Recepcionista (Cadastro de tutores e animais e controle de agenda).|
+| 6+ entidades com relacionamento N:N |Entidades: Usuário, Tutor, Animal, Consulta/Agendamento, Vacina e Prontuário. Relação N:N entre Animal e Vacina por meio da tabela associativa AplicacaoVacina (histórico de doses).|
 | Regra de negócio não trivial | Bloqueio de conflito de agenda e cálculo de intervalo vacinal: validação que impede agendamentos simultâneos no mesmo horário/veterinário e bloqueia agendamento de doses repetidas de vacinas antes do intervalo clínico mínimo necessário.|
 | Consulta agregada (relatório/dashboard) |Dashboard gerencial com GROUP BY e JOIN em 3+ tabelas (Animal, AplicacaoVacina, Vacina, Tutor) listando total de vacinas aplicadas por período, tipo de vacina e animais com doses em atraso.|
 | Validações em interface e banco |Validação no front (campos obrigatórios, máscaras de CPF/telefone/data) e constraints no banco (NOT NULL, UNIQUE para CPF e e-mail, FK com integridade referencial e CHECK para datas válidas). | 
