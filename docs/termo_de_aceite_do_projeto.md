@@ -1,8 +1,8 @@
-# Termo de Aceite do Projeto — [Nome do Projeto]
+# Termo de Aceite do Projeto — Pet & Gatô
 
-**Equipe:** [nome (RA) — nome (RA) — nome (RA) — nome (RA)]
-**Trilha:** [A1 / A2 / B]
-**Data:** [dd/mm/aaaa]
+**Equipe:** Ana Baldivia (RA 2840482423002) — Alexandre (RA 2840482423027) — Julia Roberta (RA 2840482423020) — Lidia Rocha (RA 2840482423022) <br />
+**Trilha:** B <br />
+**Data:** 28/08/2026
 
 ## 1. Escopo aceito para o semestre (funcionalidades Must + Should)
 1. [funcionalidade 1]
@@ -26,4 +26,4 @@
 |---|---|
 
 ## 5. Aprovação
-- Professor: _______________________ Data: ___/___/____
+- Professor: _______________________ Data: ___ / ___ / ____
