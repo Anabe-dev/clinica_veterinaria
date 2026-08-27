@@ -1,6 +1,6 @@
 # Documento de Visão — Pet & Gatô
 
-**Equipe:** Ana Baldivia (RA 2840482423002) — Alexandre (RA 2840482423027) — Julia Roberta (RA 2840482423020) — Lidia Rocha (RA 2840482423022) <br />
+**Equipe:** Ana Baldivia (RA 2840482423002) — Alexandre Carvalho (RA 2840482423027) — Julia Roberta (RA 2840482423020) — Lidia Rocha (RA 2840482423022) <br />
 **Trilha:** B <br />
 **Origem do problema:** Banco de temas nº 03 <br />
 **Data:** 21/08/2026
