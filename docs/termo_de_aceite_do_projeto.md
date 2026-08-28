@@ -19,7 +19,7 @@
 | Frontend | |
 | Backend | |
 | Banco de dados | PostgreSQL |
-| Deploy | |
+| Deploy  |Render (backend + banco) / Vercel (frontend) |
 
 ## 4. Papéis iniciais da equipe (Sprint 1)
 | Integrante | Papel |
