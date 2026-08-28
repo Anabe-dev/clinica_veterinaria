@@ -10,8 +10,8 @@
 ...
 
 ## 2. Critérios de pronto do MVP
-- [ ] [critério verificável 1]
-- [ ] [critério verificável 2]
+- [ ] Veterinário e Recepcionista conseguem logar com perfis distintos e permissões de acesso diferenciadas.
+- [ ] O sistema bloqueia agendamentos simultâneos no mesmo horário/veterinário e impede agendamento de doses repetidas fora do intervalo clínico.
 
 ## 3. Stack tecnológica definida
 | Camada | Tecnologia |
