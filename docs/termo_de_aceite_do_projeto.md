@@ -16,8 +16,8 @@
 ## 2. Critérios de pronto do MVP
 - Recepcionista e veterinário conseguem acessar o sistema com perfis distintos e permissões específicas.
 - Sistema está publicamente acessível por URL
-- [ ] Fluxo clínico funciona de ponta a ponta: cadastro de tutor/animal → agendamento de consulta/vacina → registro de atendimento no prontuário/aplicação de vacina.
-- [ ] O sistema bloqueia agendamentos simultâneos no mesmo horário/veterinário e impede agendamento de doses repetidas fora do intervalo clínico.
+- Fluxo clínico funciona de ponta a ponta: cadastro de tutor/animal → agendamento de consulta/vacina → registro de atendimento no prontuário/aplicação de vacina.
+- O sistema bloqueia agendamentos simultâneos no mesmo horário/veterinário e impede agendamento de doses repetidas fora do intervalo clínico.
 
 ## 3. Stack tecnológica definida
 | Camada | Tecnologia |
