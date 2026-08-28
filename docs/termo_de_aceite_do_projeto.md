@@ -5,8 +5,12 @@
 **Data:** 28/08/2026
 
 ## 1. Escopo aceito para o semestre (funcionalidades Must + Should)
-1. [funcionalidade 1]
-2. [funcionalidade 2]
+1. Cadastro de animal: Permite registrar o pet, vinculando-o a um único tutor.
+2. Cadastro de tutor: Permite o registro dos dados do responsável pelo animal no sistema (Nome, CPF, cidade, e-mail, contato).
+3. Atualização de prontuário com vacinas: Possibilita que o veterinário registre as datas de vacinação no prontuário para controle de doses futuras.
+4. Gestão de agendamentos diários: Visualização da lista de agendamentos do dia com filtros por status (Agendado, Em Espera, etc.) e por profissional.
+5. Registro de atendimento clínico: Permite ao veterinário documentar a consulta completa (queixa, anamnese, diagnóstico e prescrição/conduta).
+6. Consulta de histórico clínico: Fornece acesso ao histórico completo de atendimentos anteriores do pet para embasar diagnósticos.
 ...
 
 ## 2. Critérios de pronto do MVP
