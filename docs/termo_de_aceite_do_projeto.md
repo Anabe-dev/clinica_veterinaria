@@ -10,15 +10,15 @@
 ...
 
 ## 2. Critérios de pronto do MVP
-- [ ] [critério verificável 1]
-- [ ] [critério verificável 2]
+- Recepcionista e veterinário conseguem acessar o sistema com perfis distintos e permissões específicas.
+- Sistema está publicamente acessível por URL
 
 ## 3. Stack tecnológica definida
 | Camada | Tecnologia |
 |---|---|
 | Frontend | |
 | Backend | |
-| Banco de dados | |
+| Banco de dados | PostgreSQL |
 | Deploy | |
 
 ## 4. Papéis iniciais da equipe (Sprint 1)
