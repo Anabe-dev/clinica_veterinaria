@@ -11,7 +11,7 @@
 4. Gestão de agendamentos diários: Visualização da lista de agendamentos do dia com filtros por status (Agendado, Em Espera, etc.) e por profissional.
 5. Registro de atendimento clínico: Permite ao veterinário documentar a consulta completa (queixa, anamnese, diagnóstico e prescrição/conduta).
 6. Consulta de histórico clínico: Fornece acesso ao histórico completo de atendimentos anteriores do pet para embasar diagnósticos.
-...
+
 
 ## 2. Critérios de pronto do MVP
 - Recepcionista e veterinário conseguem acessar o sistema com perfis distintos e permissões específicas.
