@@ -23,7 +23,7 @@
 | Camada | Tecnologia |
 |---|---|
 | Frontend | HTML, CSS |
-| Backend | |
+| Backend | Python |
 | Banco de dados | PostgreSQL |
 | Deploy | Render (backend + banco) / Vercel (frontend) |
 
