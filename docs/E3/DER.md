@@ -1,4 +1,4 @@
-# DER — [Nome do Projeto]
+# DER — Pet & Gatô
 
 ## 1. Diagrama
 
@@ -12,4 +12,4 @@ erDiagram
 ### Tabela: [nome]
 | Campo | Tipo | Restrições | Descrição |
 |---|---|---|---|
-| id | INT | PK | |
+| id | INT | PK | (caso necessário) |
