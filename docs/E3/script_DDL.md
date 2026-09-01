@@ -1,4 +1,4 @@
--- schema.sql — [Nome do Projeto]
+-- schema.sql — Pet & Gatô </br>
 -- Gera o schema completo em um banco vazio.
 
 CREATE TABLE nome_entidade_independente (
