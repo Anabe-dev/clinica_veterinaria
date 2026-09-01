@@ -1,4 +1,4 @@
-# Diagramas UML — [Nome do Projeto]
+# Diagramas UML — Pet & Gatô
 
 ## 1. Diagrama de Casos de Uso
 
@@ -18,6 +18,7 @@ classDiagram
     +atributo: tipo
     +metodo()
   }
+
   class NomeClasse2
   NomeClasse1 "1" -- "N" NomeClasse2 : relação
 ```
@@ -25,3 +26,4 @@ classDiagram
 ## 3. Rastreabilidade — caso de uso → história do backlog
 | Caso de uso | História(s) relacionada(s) (E2) |
 |---|---|
+|  | #(id da história) |
