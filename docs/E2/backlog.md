@@ -1,4 +1,4 @@
-a# Backlog Priorizado — Pet & Gatô
+# Backlog Priorizado — Pet & Gatô
 
 | # | História | Critérios de aceite | Prioridade (MoSCoW) | Estimativa | Sprint alvo |
 |---|---|---|---|---|---|
@@ -12,4 +12,4 @@ a# Backlog Priorizado — Pet & Gatô
 | 8 | Como veterinário, quero ter acesso a um quadro de internações digital, para que seja possível visualizar quais pets estão internados, o box e o estado de saúde de cada um. | - Identificação do Paciente e Tutor <br> - Controle de cuidados | Should | 8 | Sprint 3 |
 | 9 | Como recepcionista, quero enviar lembretes automáticos de consultas aos tutores, para que as faltas sejam reduzidas e o acompanhamento dos agendamentos seja melhorado. | - Envia lembrete por e-mail ou SMS<br>- Informa data e horário da consulta<br>- Permite configurar o envio do lembrete | Could | 5 | Sprint 4 |
 | 10 | Como recepcionista, quero cadastrar observações adicionais sobre um tutor, para que consiga registrar informações relevantes que não estejam nos dados cadastrais. | - Permite adicionar observações ao cadastro do tutor<br>- Permite editar ou remover uma observação<br>- As observações ficam vinculadas ao tutor | Could | 3 | Sprint 4 |
-| 11 | Como veterinário, quero realizar videochamadas com os tutores, para que possa realizar consultas veterinárias de forma remota. | - Permite iniciar uma videochamada com o tutor<br>- Permite registrar a consulta no prontuário<br>- Exige conexão com a internet | Won't | 8 | Sprint 4 |
+| 11 | Como veterinário, quero realizar videochamadas com os tutores, para que possa realizar consultas veterinárias de forma remota. | - Permite iniciar uma videochamada com o tutor<br>- Permite registrar a consulta no prontuário<br>- Exige conexão com a internet | Won't | - | - |
