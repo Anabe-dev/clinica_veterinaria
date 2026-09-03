@@ -1,6 +1,6 @@
 # Termo de Aceite do Projeto — Pet & Gatô
 
-**Equipe:** Ana Baldivia (RA 2840482423002) — Alexandre Carvalho (RA 2840482423027) — Julia Roberta (RA 2840482423020) — Lidia Rocha (RA 2840482423022) <br />
+**Equipe:** Ana Baldivia (RA 2840482423002) — Alexandre Carvalho (RA 2840482423027) — Julia Roberta (RA 2840482423020) — Lídia Rocha (RA 2840482423022) <br />
 **Trilha:** B <br />
 **Data:** 28/08/2026
 
@@ -23,7 +23,7 @@
 | Camada | Tecnologia |
 |---|---|
 | Frontend | HTML, CSS |
-| Backend | Python |
+| Backend | Python (Fast API + Flask) |
 | Banco de dados | PostgreSQL |
 | Deploy | Render (backend + banco) / Vercel (frontend) |
 
@@ -33,7 +33,7 @@
 | Ana Baldivia | Product Owner |
 | Alexandre Carvalho | Responsável por qualidade |
 | Julia Roberta | Responsável por dados |
-| Lidia Rocha | Facilitador / Scrum Master |
+| Lídia Rocha | Facilitador / Scrum Master |
 
 ## 5. Aprovação
 - Professor: _______________________ Data: ___ / ___ / ____
