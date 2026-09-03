@@ -14,15 +14,69 @@ flowchart LR
 
 ```mermaid
 classDiagram
-  class NomeClasse1 {
+  class Usuário {
+    - id: int
+    - nome: String
+    - email: String
+    - senha: - String
+    - perfil: String
+    + login()
+    + logout()
+  }
+ class Veterinário {
+    +atributo: tipo
+    +metodo()
+ }
+  class Recepcionista {
+    +atributo: tipo
+    +metodo()
+  }
+  class Tutor {
+    +atributo: tipo
+    +metodo()
+  }
+  class Animal {
+    +atributo: tipo
+    +metodo()
+  }
+  class Atendimento {
+    +atributo: tipo
+    +metodo()
+  }
+  class Prontuário {
+    +atributo: tipo
+    +metodo()
+  }
+  class Vacinacao {
+    +atributo: tipo
+    +metodo()
+  }
+  class Agendamento {
+    +atributo: tipo
+    +metodo()
+  }
+  class Lembrete {
     +atributo: tipo
     +metodo()
   }
 
-  class NomeClasse2
-  NomeClasse1 "1" -- "N" NomeClasse2 : relação
+
+
+  Usuário "1" -- "1" Veterinário : relação
+  Usuário "1" -- "1" Recepcionista : relação
+  Tutor "1" -- "n" Animal: relação
+  Veterinário "1" -- "1" Atendimento: relação
+  Veterinário "1" -- "n" Prontuário: relação
+  Recepcionista "1" -- "n" Agendamento: relação
 ```
 
+
+
+
+
+
+
+  
 ## 3. Rastreabilidade — caso de uso → história do backlog
 | Caso de uso | História(s) relacionada(s) (E2) |
 |---|---|
