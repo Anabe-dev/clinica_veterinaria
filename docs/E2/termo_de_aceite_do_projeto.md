@@ -23,7 +23,7 @@
 | Camada | Tecnologia |
 |---|---|
 | Frontend | HTML, CSS |
-| Backend | Python (Fast API + Flask) |
+| Backend | Python (Fast API) |
 | Banco de dados | PostgreSQL |
 | Deploy | Render (backend + banco) / Vercel (frontend) |
 
