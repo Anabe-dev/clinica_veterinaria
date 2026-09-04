@@ -7,11 +7,13 @@
 ## 1. Escopo aceito para o semestre (funcionalidades Must + Should)
 1. Cadastro de animal: Permite registrar o pet, vinculando-o a um único tutor.
 2. Cadastro de tutor: Permite o registro dos dados do responsável pelo animal no sistema (Nome, CPF, cidade, e-mail, contato).
-3. Segurança dos perfis: Lista requisitos mínimos para criação de senha do usuário.
+3. Segurança dos perfis: Lista requisitos mínimos para criação de senha do usuário e perfis com acessos distintos.
 4. Atualização de vacinas: Possibilita que o veterinário registre as datas de vacinação na carteirinha do animal e realize o agendamento de novas doses.
-5. Gestão de agendamentos diários: Visualização da lista de agendamentos do dia com filtros por status (Agendado, Em Espera, etc.) e por profissional.
-6. Registro de atendimento clínico: Permite ao veterinário documentar a consulta completa (queixa, anamnese, diagnóstico e prescrição/conduta), seja em consultas, internações ou plantões.
-7. Consulta de histórico clínico: Fornece acesso ao histórico completo de atendimentos anteriores do pet para embasar diagnósticos.
+5. Gestão de agendamentos diários: Verifica conflitos entre agendas e permite visualização da lista de agendamentos do dia com filtros por status (Agendado, Em Espera, etc.) e por profissional.
+6. Relatório de internação: Possibilita a análise facilitada e geral dos casos de internação da clínica, com descrição e nível de gravidade.
+7. Registro de atendimento clínico: Permite ao veterinário documentar a consulta completa (queixa, anamnese, diagnóstico e prescrição/conduta), seja em consultas, internações ou plantões.
+8. Consulta de histórico clínico: Fornece acesso ao histórico completo de atendimentos anteriores do pet para embasar diagnósticos.
+9. Sistema eficiente: Disponibiliza acesso contínuo ao sistema com dados atualizados.
 
 
 ## 2. Critérios de pronto do MVP
@@ -19,7 +21,7 @@
 - Sistema está publicamente acessível por URL.
 - Fluxo clínico funciona de ponta a ponta: cadastro de tutor/animal → agendamento de consulta/vacina → registro de atendimento no prontuário/aplicação de vacina.
 - O sistema bloqueia agendamentos simultâneos no mesmo horário/veterinário e impede agendamento de doses repetidas fora do intervalo clínico.
-- README apresenta o projeto.
+- README apresenta o projeto e suas funcionalidades.
 
 ## 3. Stack tecnológica definida
 | Camada | Tecnologia |
