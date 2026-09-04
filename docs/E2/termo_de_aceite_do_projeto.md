@@ -26,7 +26,7 @@
 ## 3. Stack tecnológica definida
 | Camada | Tecnologia |
 |---|---|
-| Frontend | HTML, CSS |
+| Frontend | HTML, CSS (React) |
 | Backend | Python (Fast API) |
 | Banco de dados | PostgreSQL |
 | Deploy | Render (backend + banco) / Vercel (frontend) |
