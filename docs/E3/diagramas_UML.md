@@ -4,10 +4,18 @@
 
 ```mermaid
 flowchart LR
-  Ator1((Perfil 1))
-  Ator2((Perfil 2))
-  Ator1 --> UC1[Caso de uso 1]
-  Ator2 --> UC2[Caso de uso 2]
+  Ator1((Recepcionista))
+  Ator2((Veterinário))
+  Ator3((Usuário))
+  Ator1 --> UC1[Cadastrar Tutor]
+  Ator1 --> UC1.1[Cadastrar Animal]
+  Ator1 --> UC1.2[Verificar agenda]
+  Ator1 --> UC1.3[Gerenciar Agendamentos]
+  Ator2 --> UC2[Atualizar Prontuário com Vacinação]
+  Ator2 --> UC2.1[Consultar Histórico Clínico]
+  Ator2 --> UC2.2[Registrar Atendimento Clínico]
+  Ator3 --> UC3[Validar Senha Forte]
+
 ```
 
 ## 2. Diagrama de Classes
