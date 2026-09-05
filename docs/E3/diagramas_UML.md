@@ -7,14 +7,22 @@ flowchart LR
   Ator1((Recepcionista))
   Ator2((Veterinário))
   Ator3((Usuário))
+  Ator4((Sistema))
   Ator1 --> UC1[Cadastrar Tutor]
   Ator1 --> UC1.1[Cadastrar Animal]
-  Ator1 --> UC1.2[Verificar agenda]
+  Ator1 --> UC1.2[Verificar conflito de agenda]
   Ator1 --> UC1.3[Gerenciar Agendamentos]
   Ator2 --> UC2[Atualizar Prontuário com Vacinação]
   Ator2 --> UC2.1[Consultar Histórico Clínico]
   Ator2 --> UC2.2[Registrar Atendimento Clínico]
-  Ator3 --> UC3[Validar Senha Forte]
+  Ator3 --> UC3[Realizar Login]
+  Ator3 --> UC3.1[Validar Senha]
+  Ator4((Sistema)) --> Ator1((Recepcionista))
+  Ator4((Sistema)) --> Ator2((Veterinário))
+  Ator4((Sistema)) --> Ator3((Usuário))
+  Ator4 --> UC4[Controlar Acesso por Perfil]
+  Ator4 --> UC4.1[Atualizar Dados]
+  Ator1 --> UC4.1[Atualizar Dados]
 
 ```
 
