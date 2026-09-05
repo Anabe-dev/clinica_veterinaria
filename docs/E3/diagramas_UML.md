@@ -15,6 +15,7 @@ flowchart LR
   Ator2 --> UC2[Atualizar Prontuário com Vacinação]
   Ator2 --> UC2.1[Consultar Histórico Clínico]
   Ator2 --> UC2.2[Registrar Atendimento Clínico]
+  Ator2 --> UC2.3[Acessar Sistema em Plantão]
   Ator3 --> UC3[Realizar Login]
   Ator3 --> UC3.1[Validar Senha]
   Ator4((Sistema)) --> Ator1((Recepcionista))
