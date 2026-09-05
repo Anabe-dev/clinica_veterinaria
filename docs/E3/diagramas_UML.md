@@ -24,7 +24,7 @@ flowchart LR
   Ator4 --> UC4[Controlar Acesso por Perfil]
   Ator4 --> UC4.1[Atualizar Dados]
   Ator1 --> UC4.1[Atualizar Dados]
-  teste -.->|&lt;&lt; include &gt;&gt;| teste2
+ UC3[Realizar Login] -.->|&lt;&lt; include &gt;&gt;| UC3.1[Validar Senha]
    
 ```
 ## 2. Diagrama de Classes
