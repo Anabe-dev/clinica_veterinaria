@@ -97,13 +97,14 @@ classDiagram
 ## 3. Rastreabilidade — caso de uso → história do backlog
 | Caso de uso | História(s) relacionada(s) (E2) |
 |---|---|
-| Cadastrar Tutor | #(id da história) |
-| Cadastrar Animal | #(id da história) |
-| Verificar conflito de agenda | #(id da história) |
-| Gerenciar Agendamentos | #(id da história) |
-| Atualizar Prontuário com Vacinação | #(id da história) |
-| Consultar Histórico Clínico | #(id da história) |
-| Registrar Atendimento Clínico | #(id da história) |
-| Acessar Sistema em Plantão | #(id da história) |
-| Realizar Login | #(id da história) |
-| Validar Senha  | #(id da história) |
+| Cadastrar Tutor | #1 |
+| Cadastrar Animal | #2 |
+| Verificar conflito de agenda | #5 |
+| Gerenciar Agendamentos | #6 |
+| Atualizar Prontuário com Vacinação | #4 |
+| Consultar Histórico Clínico | #7 |
+| Registrar Atendimento Clínico | #8 |
+| Acessar Sistema em Plantão | # |
+| Realizar Login | # |
+| Validar Senha  | # |
+| Controlar Acesso por Perfil | # |
