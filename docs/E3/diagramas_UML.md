@@ -24,9 +24,8 @@ flowchart LR
   Ator4 --> UC4[Controlar Acesso por Perfil]
   Ator4 --> UC4.1[Atualizar Dados]
   Ator1 --> UC4.1[Atualizar Dados]
-
+   
 ```
-
 ## 2. Diagrama de Classes
 
 ```mermaid
