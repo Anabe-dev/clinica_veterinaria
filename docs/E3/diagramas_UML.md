@@ -105,7 +105,7 @@ classDiagram
 | Consultar Histórico Clínico | #7 |
 | Registrar Atendimento Clínico | #8 |
 | Acessar Sistema em Plantão | #11 |
-| Realizar Login | # |
+| Realizar Login | #3 |
 | Validar Senha  | #3 |
 | Controlar Acesso por Perfil | #9 |
 | Atualizar Dados | #10 |
