@@ -9,7 +9,6 @@
 | Manual / Aceitação | Fluxos completos de ponta a ponta (cadastrar pet → agendar consulta/vacina → realizar atendimento/aplicação → verificar prontuário) antes de cada Sprint Review | Roteiro manual de homologação | Ao fim de cada sprint |
 
 ## 2. Critério de Bloqueio de Merge
-
 Para assegurar a estabilidade da versão principal do software (`main`), nenhum Pull Request (PR) terá sua mesclagem (merge) autorizada se infringir qualquer uma das seguintes diretrizes:
 
 1. **Quebra da Suíte de Testes Existente (Regressão):**
