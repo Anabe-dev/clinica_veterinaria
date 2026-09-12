@@ -3,8 +3,9 @@
 **Link do protótipo:** [https://www.figma.com/design/6EWFIazRWVQZDpMeADtOQX/Pet-Gat%C3%B4?node-id=32-3226&p=f&t=xmP0HsfKa2OI5fpN-0]
 
 | Tela | Perfil | História relacionada (E2) | O que a tela mostra/permite |
-|Tela de Login|Recepcionista, Veterinário|(E3)|---|
-|Tela inicial recepcionista|Recepcionista|(E1,E2)|---|
-|Tela de cadastro|Recepcionista|(E1,E2,E10)|---|
-|Tela de Agendamentos|Recepcionista|(E6)|---|
-|Tela de Internações|Veterinário|(E14)|---|
+|---|---|---|---|
+|Tela de Login|Recepcionista, Veterinário|#3|A tela mostra os campos para digitar login e senha|
+|Tela inicial recepcionista|Recepcionista|#1,#2||
+|Tela de cadastro|Recepcionista|#1,#2,#10|A tela permite cadastro do tutor e animal|
+|Tela de Agendamentos|Recepcionista|#6|A tela permite cadastro e visualização dos agendamentos por dia/mês e horário|
+|Tela de Internações|Veterinário|#14|A tela permite a visualização das internações, seu status e o acesso aos prontuários|
