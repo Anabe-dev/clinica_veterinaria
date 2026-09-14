@@ -1,4 +1,4 @@
-# Relatório Individual de Contribuição — Sprint 1 — Lidia Rocha (RA 2840482423022)
+# Relatório Individual de Contribuição — Sprint 2 — Lidia Rocha (RA 2840482423022)
 
 **Papel nesta sprint:** [Facilitador / PO / Dados / Qualidade]
 
