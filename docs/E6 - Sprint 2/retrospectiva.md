@@ -1,4 +1,4 @@
-# Ata de Retrospectiva — Sprint 1 — Pet & Gatô
+# Ata de Retrospectiva — Sprint 2 — Pet & Gatô
 
 **Data:** [dd/mm/aaaa] <br>
 **Presentes:** Ana Baldivia (RA 2840482423002) — Alexandre Carvalho (RA 2840482423027) — Julia Roberta (RA 2840482423020) — Lidia Rocha (RA 2840482423022) <br>
