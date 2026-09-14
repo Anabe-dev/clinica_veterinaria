@@ -1,4 +1,4 @@
-# Relatório de Entrega — Sprint 1 — Pet & Gatô
+# Relatório de Entrega — Sprint 3 — Pet & Gatô
 
 **Período:** [data início] a [data fim]
 **Sprint Review:** [data, com quem]
