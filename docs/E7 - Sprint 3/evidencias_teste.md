@@ -1,4 +1,4 @@
-# Evidências de Teste — Sprint 1 — Pet & Gatô
+# Evidências de Teste — Sprint 3 — Pet & Gatô
 
 | ID | Caso de teste | Tipo | Resultado | Evidência |
 |---|---|---|---|---|
