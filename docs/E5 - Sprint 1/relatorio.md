@@ -12,7 +12,7 @@
 | #4 Atualização de prontuário com data de vacinação | Sim | Não | Precisa da segregação dos perfis, movida para a Sprint 3 |
 
 ## 2. Incremento funcional demonstrável
-Cadastro de tutores e animais com validação de CPF único, campos obrigatórios e vínculo obrigatório entre animal e tutor, além de criação de usuário com validação de segurança de senha. Ambiente rodando localmente via FastAPI/Uvicorn (deploy público planejado para as próximas entregas). Vídeo de demonstração: `docs/video/Video Funcionamento Sprint 1.mp4`.
+Cadastro de tutores e animais com validação de CPF único, campos obrigatórios e vínculo obrigatório entre animal e tutor, além de criação de usuário com validação de segurança de senha. Ambiente rodando localmente via FastAPI/Uvicorn (deploy público planejado para as próximas entregas). Vídeo de demonstração: (https://drive.google.com/file/d/1vaxUEzlejlQOqu4RZXTpLxZIzq6W-Us9/view?usp=sharing).
 
 Passo a passo para reproduzir localmente:
 1. Acessar a pasta do backend: `cd backend`
