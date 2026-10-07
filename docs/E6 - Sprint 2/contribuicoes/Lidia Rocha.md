@@ -1,17 +1,17 @@
 # Relatório Individual de Contribuição — Sprint 2 — Lídia Rocha (RA 2840482423022)
 
-**Papel nesta sprint:** Desenvolvedora Back-end
+**Papel nesta sprint:** Desenvolvedora Back-end / Documentação Técnica
 
 ---
 
 ## 1. O que fiz
 
 | Item | PR/commit | Status |
-|---|---|:---:|
-| Desenvolvimento/Apoio na lógica dos endpoints REST para o módulo de Agendamentos e Vacinação no FastAPI | PR #XX | Concluído |
-| Implementação e tratamento das regras de negócio e retornos HTTP (400 Datas Retroativas, 404 Entidade não encontrada e 409 Conflito de Horários) | PR #XX | Concluído |
-| Validação da regressão do código: execução local da suíte do Pytest garantindo a aprovação dos 14 testes (6 da Sprint 1 + 8 novos da Sprint 2) | PR #XX | Concluído |
-| Acompanhamento da integração contínua (CI) no GitHub Actions para garantir o merge limpo com a branch `main` | PR #XX | Concluído |
+| :--- | :---: | :---: |
+| Atualização da documentação do projeto e gestão do board da sprint (Kanban), definindo critérios de aceitação | PR #18 | Concluído |
+| Alinhamento técnico das histórias de usuário com as novas regras de negócio de agendamentos e vacinação | PR #18 | Concluído |
+| Apoio na validação local das rotas de agendamento e execução da suíte do Pytest para validação de regressão | Commit local | Concluído |
+| Revisão contínua das entregas para garantir o correto rastreamento dos cards no board de acordo com a pipeline de CI | Contínuo | Concluído |
 
 ---
 
@@ -26,12 +26,18 @@
 ## 3. PRs de colegas que revisei
 
 | PR | Autor | Comentário resumido |
-|---|---|---|
-| #XX | Alexandre Carvalho (ou QA da equipe) | Revisei as novas implementações da suíte de testes (CT11 a CT18). Executei o código localmente no VS Code para confirmar que os testes de agendamento, cancelamento e regras de vacina (intervalo de 21 dias) estavam passando e integrados corretamente com o backend antes da aprovação do PR. |
+| :--- | :---: | :--- |
+| **#20 - Validador customizado de data/hora** | Alexandre Carvalho | Revisei a implementação dos validadores do Pydantic para garantir que a documentação técnica e os requisitos da API refletissem corretamente o suporte aos formatos `DD/MM/YYYY HH:MM` e ISO 8601. |
+| **#16 - Endpoints de agendamento** | Ana Baldivia | Validei a estrutura das rotas criadas no FastAPI para assegurar que os status codes (como o 409 Conflict) batessem com os critérios de aceitação definidos no planejamento. |
 
 ---
 
 ## 4. Dificuldades e o que aprendi
 
-- **Dificuldades:** A maior complexidade desta sprint no backend foi lidar com a manipulação e validação de datas/horas (datetime). Implementar a lógica que impede agendamentos retroativos e calcula o intervalo mínimo de 21 dias para as vacinas exigiu bastante atenção para evitar bugs de fuso horário e garantir que a API retornasse os erros corretos (como o `400 Bad Request` e o `409 Conflict`).
-- **O que aprendi:** Evoluí bastante no tratamento de exceções do FastAPI, compreendendo melhor como mapear regras de negócio complexas para respostas HTTP semânticas. Além disso, ver o pipeline do GitHub Actions validando 100% da regressão e dos códigos novos reforçou meu entendimento sobre o valor de manter os testes unitários sempre atualizados.
+- **Dificuldades:** 
+  - Manter a documentação técnica, os contratos da API e os critérios de aceitação do Kanban perfeitamente sincronizados com as rápidas e complexas mudanças no backend (como as validações de datas retroativas e intervalos de vacina).
+  - Compreender a fundo as mudanças de tipagem dinâmica inseridas na sprint para conseguir documentar o comportamento exato dos payloads esperados.
+
+- **O que aprendi:** 
+  - Aprofundei meu conhecimento em FastAPI e Pydantic, compreendendo na prática como funcionam os validadores customizados (`@field_validator`) e como eles afetam a entrada e saída de dados.
+  - Melhorei minha visão sistêmica sobre Engenharia de Software, percebendo o impacto direto que uma documentação bem elaborada e um board organizado têm para guiar os testes automatizados (QA) e evitar gargalos no pipeline de CI/CD.
